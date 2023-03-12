@@ -9,11 +9,11 @@ while True:
     opc = input("Digite una opción: ")
 
     if opc == "1":
-        tamano = int(input("Digite el tamaño del cuadrado: "))
+        tamanio = int(input("Digite el tamaño del cuadrado: "))
 
-        for i in range(tamano):
-            for j in range(tamano):
-                if i == 0 or i == tamano-1 or j == 0 or j == tamano-1:
+        for i in range(tamanio):
+            for j in range(tamanio):
+                if i == 0 or i == tamanio-1 or j == 0 or j == tamanio-1:
                     print("*", end="")
                 else:
                     print(" ", end="")
@@ -26,13 +26,13 @@ while True:
                 print(numero)
     
     elif opc == "3":
-        personas = [("Jose", 20), ("Elizabeth", 27), ("Pepe", 15), ("Lisa", 18), ("Esteban", 13)]
+        personas = [("Bryan", 20), ("Alexandra", 27), ("Rocio", 15), ("Gabriel", 18), ("Renzo", 13)]
 
         for persona in personas:
             if persona[1] >= 18:
                 print(persona[0])
     elif opc == "4":
-        print("Aios")
+        print("Adios")
         break
     else:
         print("Valor ingresado invalido")
