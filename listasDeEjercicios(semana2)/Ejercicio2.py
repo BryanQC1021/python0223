@@ -2,10 +2,10 @@
 biblioteca = {
     "categorias": ["aventuras", "ciencia ficción", "cuentos de hadas", "gótica" ],
     "libros": {
-        "La vuelta al mundo en 80 dias": "Julio Verne",
+        "El Código da Vinci": "Dan Brown",
         "1984": "George Orwell",
-        "Caperucita Roja": "Charles Perrault",
-        "Dracula": "Bram Stoker"
+        "Harry Potter": "J.K. Rowling",
+        "Lo que el viento se llevo": "Margaret Mitchell"
         
     },
     "prestamos": {},

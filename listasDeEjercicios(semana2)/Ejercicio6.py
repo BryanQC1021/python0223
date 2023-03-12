@@ -9,7 +9,7 @@ def obtEvent():
     return evento
 
 def validar(evento):
-    eventos_validos = ['fiesta', 'concierto', 'obra de teatro']
+    eventos_validos = ['concierto', 'cumpleaños', 'fiesta']
     if evento.lower() not in eventos_validos:
         raise ValueError("El evento digitado no es válido.")
 
