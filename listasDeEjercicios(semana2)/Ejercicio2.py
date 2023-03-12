@@ -3,7 +3,7 @@ biblioteca = {
     "categorias": ["aventuras", "ciencia ficción", "cuentos de hadas", "gótica" ],
     "libros": {
         "El Código da Vinci": "Dan Brown",
-        "1984": "George Orwell",
+        "1984": "George Orwel",
         "Harry Potter": "J.K. Rowling",
         "Lo que el viento se llevo": "Margaret Mitchell"
         
