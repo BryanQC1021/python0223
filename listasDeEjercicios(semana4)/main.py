@@ -1,5 +1,5 @@
 from ejercicio2 import Sorteo
-from ejercicio3 import get_tipo_cambio, get_pokemon_data
+from ejercicio3 import get_tipo_cambio
 from ejercicio4 import Registro
 from ejercicio5 import validar_telefono
 
